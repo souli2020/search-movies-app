@@ -133,7 +133,7 @@ display: block;
       font-size: 18px;
     text-align: center;
      float: right;
-    position: fix;
+    position: sticky;
     top: 40%;
     right: 0%;
     z-index: 1000;
