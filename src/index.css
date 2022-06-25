@@ -139,8 +139,7 @@ display: block;
     z-index: 1000;
 }
 .card--desc{
-    color: red;
-    text-align: justify;
+     text-align: justify;
     margin-left:0;
 }
 .wrapper{
@@ -174,9 +173,8 @@ top: 10px;
 font-weight: bold;
 }
 ::-webkit-scrollbar{
-    width: 30px;
-     /* background: grey; */
-}
+    width: 20px;
+ }
 ::-webkit-scrollbar-track{
     background:rgba(0,0,0,0.42);
     margin: 15rem 0;
