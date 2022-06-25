@@ -128,13 +128,13 @@ display: block;
 }
 .watchlist{
     display: block;
-    color: white;
-    background: grey;
-     font-size: 18px;
+    color: rgba(0,0,0,0.85);
+    outline: 1px solid;
+      font-size: 18px;
     text-align: center;
      float: right;
-    position: sticky;
-    top: 20%;
+    position: fix;
+    top: 40%;
     right: 0%;
     z-index: 1000;
 }
