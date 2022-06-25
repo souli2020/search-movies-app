@@ -10,6 +10,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(244,244,244);
+    background-image:url("./movie-2-fill.png");
     color: #333;
 }
 
