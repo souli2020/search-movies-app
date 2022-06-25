@@ -3,7 +3,7 @@ const Context = React.createContext()
 
 function ContextProvider({children}){
     const [movies, setMovies] = useState([])
-     const [query, setQuery] = useState('jurassic park')
+     const [query, setQuery] = useState('')
       const [watchList, setWatchList]= useState([])
       const [watch, setWatch]= useState(true)
      
