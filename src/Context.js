@@ -3,7 +3,7 @@ const Context = React.createContext()
 
 function ContextProvider({children}){
     const [movies, setMovies] = useState([])
-     const [query, setQuery] = useState('')
+     const [query, setQuery] = useState('jurassic park')
       const [watchList, setWatchList]= useState([])
       const [watch, setWatch]= useState(true)
      
@@ -24,7 +24,7 @@ function ContextProvider({children}){
                 
                 
       function handleChange(e){
-                        setQuery(e.target.value)
+                        setQuery(prev => e.target.value)
            }
                     
       function toggleFavorite(id){
